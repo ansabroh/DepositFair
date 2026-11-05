@@ -18,17 +18,17 @@ All 11 transactions below were independently queried and required FINALIZED plus
 
 | Operation | Consensus | Execution | Explorer |
 | --- | --- | --- | --- |
-| deploy | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/transactions/0xeaafadc5f5daedb92427b827b14b559e0023326bbef3dd3ebd9a036e92ad7823) |
-| ai_open_case | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/transactions/0x7d4949192bc4490f9db8dea3efb81a4f623bc1ac1fe351edb58f95088938e561) |
-| ai_respond | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/transactions/0x7cadddc4d0061ff184aa292fd559afd32271a1bfd9797e77fab481bd4bbc2234) |
-| ai_evaluate | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/transactions/0x286532a05ca434a601d45d2e58dd3764861ec70fbaa5ccbf30c6096403136d55) |
-| lifecycle_1_open_case | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/transactions/0x19a943889dca9cc97fe861310d95bd3d125522c296b2681271152e32a62d6922) |
-| lifecycle_2_respond | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/transactions/0x33aa3dacf8bd84d9c88badfe5cc72f2476ed4c3ac0a2595b3b395a4eea02762e) |
-| lifecycle_3_evaluate | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/transactions/0xfa12f7634ca6a4746158e358a2dfa0b585065acbff4b862bf8a2217aa719f7a9) |
-| lifecycle_4_challenge | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/transactions/0x567c34dd7325eeb97ca9c702df70ec23f45d832f333b249cfc0808b3ad37fc76) |
-| lifecycle_5_evaluate | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/transactions/0x4db6d81f463cb5ab6305267f616627a3efe7bce5b79ff9c22b2d5d2808cb5ead) |
-| lifecycle_6_evaluate | FINALIZED | ERROR | [Transaction](https://explorer-studio.genlayer.com/transactions/0x42684148d7885e7c4e567fdad5be62643b705367cd451a4bfb305a41a6e6ea6d) |
-| duplicate_response_rejected | FINALIZED | ERROR | [Transaction](https://explorer-studio.genlayer.com/transactions/0x0526b611484078e7a79efb4193f262e7cd1a5df07848e5ae7f6671b730009eec) |
+| deploy | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/tx/0xeaafadc5f5daedb92427b827b14b559e0023326bbef3dd3ebd9a036e92ad7823) |
+| ai_open_case | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/tx/0x7d4949192bc4490f9db8dea3efb81a4f623bc1ac1fe351edb58f95088938e561) |
+| ai_respond | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/tx/0x7cadddc4d0061ff184aa292fd559afd32271a1bfd9797e77fab481bd4bbc2234) |
+| ai_evaluate | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/tx/0x286532a05ca434a601d45d2e58dd3764861ec70fbaa5ccbf30c6096403136d55) |
+| lifecycle_1_open_case | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/tx/0x19a943889dca9cc97fe861310d95bd3d125522c296b2681271152e32a62d6922) |
+| lifecycle_2_respond | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/tx/0x33aa3dacf8bd84d9c88badfe5cc72f2476ed4c3ac0a2595b3b395a4eea02762e) |
+| lifecycle_3_evaluate | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/tx/0xfa12f7634ca6a4746158e358a2dfa0b585065acbff4b862bf8a2217aa719f7a9) |
+| lifecycle_4_challenge | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/tx/0x567c34dd7325eeb97ca9c702df70ec23f45d832f333b249cfc0808b3ad37fc76) |
+| lifecycle_5_evaluate | FINALIZED | SUCCESS | [Transaction](https://explorer-studio.genlayer.com/tx/0x4db6d81f463cb5ab6305267f616627a3efe7bce5b79ff9c22b2d5d2808cb5ead) |
+| lifecycle_6_evaluate | FINALIZED | ERROR | [Transaction](https://explorer-studio.genlayer.com/tx/0x42684148d7885e7c4e567fdad5be62643b705367cd451a4bfb305a41a6e6ea6d) |
+| duplicate_response_rejected | FINALIZED | ERROR | [Transaction](https://explorer-studio.genlayer.com/tx/0x0526b611484078e7a79efb4193f262e7cd1a5df07848e5ae7f6671b730009eec) |
 
 ## Substantive AI assessment
 
@@ -55,6 +55,6 @@ The second receipt preserves the first receipt hash, binds the changed evidence 
 
 This is a public research sandbox, not production tenancy arbitration. Only text evidence is implemented. No PDF/photo authenticity verification, confidential storage, identity verification, external legal-data feed, money custody, automatic settlement or real adoption is claimed. The frontend uses disposable SDK accounts and does not share Studio's cross-origin account session; Studio built-in accounts were used for deployment and the original Studio demonstration. No Studio credentials were accessed.
 
-The first text-response deployment and the intermediate exact-subcheck deployment were replaced after observed live problems; their source and evidence are retained. The final contract was not redeployed without a source change. Explorer availability can differ from RPC availability: a direct Explorer visit returned a temporary 503 during testing. Contract source, finalized transactions and receipt state were independently verified over RPC, and the app reads the network directly.
+The first text-response deployment and the intermediate exact-subcheck deployment were replaced after observed live problems; their source and evidence are retained. The final contract was not redeployed without a source change. Explorer availability can differ from RPC availability: a direct Explorer visit returned a temporary 503 during testing. Contract source, finalized transactions and receipt state were independently verified over RPC, and the app reads the network directly. A later public Explorer check succeeded and confirmed all 11 finalized transactions. Current transaction links use the verified `/tx/` route.
 
 Raw verification: `evidence/release-verification.json`. Commands and expected results are documented in DEPLOYMENT.md and SECURITY.md. Project Explorer approval and scoring remain external reviewer decisions.

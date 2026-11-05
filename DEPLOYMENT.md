@@ -7,7 +7,7 @@
 - Intelligent Contract version: DepositFair/1.2
 - Contract: `0x2cDd9704206261998586023a5F36bB45199e82F8`
 - Explorer: https://explorer-studio.genlayer.com/address/0x2cDd9704206261998586023a5F36bB45199e82F8
-- Deployment transaction: https://explorer-studio.genlayer.com/transactions/0xeaafadc5f5daedb92427b827b14b559e0023326bbef3dd3ebd9a036e92ad7823
+- Deployment transaction: https://explorer-studio.genlayer.com/tx/0xeaafadc5f5daedb92427b827b14b559e0023326bbef3dd3ebd9a036e92ad7823
 - Application origin: https://depositfair.mohamedansaf222.chatgpt.site
 - Source repository: https://github.com/ansabroh/DepositFair
 - Contract source SHA-256: `a89274e56aed717b160bb5c37f5345a697eeb2346b0b61659991dff1a0ec6fb7`

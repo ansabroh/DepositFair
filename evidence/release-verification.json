@@ -9,7 +9,7 @@
       "phase": "finalized",
       "status": "FINALIZED",
       "result": "SUCCESS",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0xeaafadc5f5daedb92427b827b14b559e0023326bbef3dd3ebd9a036e92ad7823",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xeaafadc5f5daedb92427b827b14b559e0023326bbef3dd3ebd9a036e92ad7823",
       "votes": {
         "0x007d6451555Df7765c707284F844137927aE4e5E": "agree",
         "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "idle",
@@ -499,7 +499,7 @@
       "phase": "finalized",
       "status": "FINALIZED",
       "result": "SUCCESS",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0x7d4949192bc4490f9db8dea3efb81a4f623bc1ac1fe351edb58f95088938e561",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x7d4949192bc4490f9db8dea3efb81a4f623bc1ac1fe351edb58f95088938e561",
       "votes": {
         "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
         "0x9C182DE7F93AdbE8ee3D62570613eC23c5683cAc": "idle",
@@ -3261,7 +3261,7 @@
       "phase": "finalized",
       "status": "FINALIZED",
       "result": "SUCCESS",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0x7cadddc4d0061ff184aa292fd559afd32271a1bfd9797e77fab481bd4bbc2234",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x7cadddc4d0061ff184aa292fd559afd32271a1bfd9797e77fab481bd4bbc2234",
       "votes": {
         "0x007d6451555Df7765c707284F844137927aE4e5E": "idle",
         "0x045291B293B9D68969c18B6637A8258038cf787A": "idle",
@@ -4471,7 +4471,7 @@
       "phase": "finalized",
       "status": "FINALIZED",
       "result": "SUCCESS",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0x286532a05ca434a601d45d2e58dd3764861ec70fbaa5ccbf30c6096403136d55",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x286532a05ca434a601d45d2e58dd3764861ec70fbaa5ccbf30c6096403136d55",
       "votes": {
         "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
         "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "agree",
@@ -7382,7 +7382,7 @@
       "phase": "finalized",
       "status": "FINALIZED",
       "result": "SUCCESS",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0x19a943889dca9cc97fe861310d95bd3d125522c296b2681271152e32a62d6922",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x19a943889dca9cc97fe861310d95bd3d125522c296b2681271152e32a62d6922",
       "votes": {
         "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
         "0x5D9Ee6E9aAF2F0b739314A52dd9Da57cd8866dA8": "agree",
@@ -10153,7 +10153,7 @@
       "phase": "finalized",
       "status": "FINALIZED",
       "result": "SUCCESS",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0x33aa3dacf8bd84d9c88badfe5cc72f2476ed4c3ac0a2595b3b395a4eea02762e",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x33aa3dacf8bd84d9c88badfe5cc72f2476ed4c3ac0a2595b3b395a4eea02762e",
       "votes": {
         "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
         "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "idle",
@@ -11152,7 +11152,7 @@
       "phase": "finalized",
       "status": "FINALIZED",
       "result": "SUCCESS",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0xfa12f7634ca6a4746158e358a2dfa0b585065acbff4b862bf8a2217aa719f7a9",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xfa12f7634ca6a4746158e358a2dfa0b585065acbff4b862bf8a2217aa719f7a9",
       "votes": {
         "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "agree",
         "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "agree",
@@ -11741,7 +11741,7 @@
       "phase": "finalized",
       "status": "FINALIZED",
       "result": "SUCCESS",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0x567c34dd7325eeb97ca9c702df70ec23f45d832f333b249cfc0808b3ad37fc76",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x567c34dd7325eeb97ca9c702df70ec23f45d832f333b249cfc0808b3ad37fc76",
       "votes": {
         "0x007d6451555Df7765c707284F844137927aE4e5E": "agree",
         "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "idle",
@@ -12692,7 +12692,7 @@
       "phase": "finalized",
       "status": "FINALIZED",
       "result": "SUCCESS",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0x4db6d81f463cb5ab6305267f616627a3efe7bce5b79ff9c22b2d5d2808cb5ead",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x4db6d81f463cb5ab6305267f616627a3efe7bce5b79ff9c22b2d5d2808cb5ead",
       "votes": {
         "0x336458747913FE397be82c4F0926ACeB3ab13618": "idle",
         "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
@@ -13281,7 +13281,7 @@
       "phase": "failed",
       "status": "FINALIZED",
       "result": "ERROR",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0x42684148d7885e7c4e567fdad5be62643b705367cd451a4bfb305a41a6e6ea6d",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x42684148d7885e7c4e567fdad5be62643b705367cd451a4bfb305a41a6e6ea6d",
       "votes": {
         "0x336458747913FE397be82c4F0926ACeB3ab13618": "agree",
         "0x378aED3bA912Ce77C3C66155961A7e61C2fE8F3B": "agree",
@@ -13860,7 +13860,7 @@
       "phase": "failed",
       "status": "FINALIZED",
       "result": "ERROR",
-      "explorer": "https://explorer-studio.genlayer.com/transactions/0x0526b611484078e7a79efb4193f262e7cd1a5df07848e5ae7f6671b730009eec",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x0526b611484078e7a79efb4193f262e7cd1a5df07848e5ae7f6671b730009eec",
       "votes": {
         "0x045291B293B9D68969c18B6637A8258038cf787A": "agree",
         "0x4441Ebe37E72c039B73f1D6CF8C6DEe277FE547a": "agree",

@@ -56,7 +56,7 @@ for (const ref of refs) {
   out.transactions.push({
     ...ref,
     ...state,
-    explorer: "https://explorer-studio.genlayer.com/transactions/" + ref.hash,
+    explorer: "https://explorer-studio.genlayer.com/tx/" + ref.hash,
     votes: tx.consensus_data?.votes,
     execution_receipts: tx.consensus_data?.leader_receipt,
   });

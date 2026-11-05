@@ -1,9 +1,9 @@
 {
   "deployment": {
-    "id": "appgdep_6aebd2bdcfc481919b5763ebfeb6aef3",
+    "id": "appgdep_6aebd454e98c8191bd3ce900b790ab18",
     "project_id": "appgprj_6aeb125a00fc8191b9498af24a733a23",
     "title": "DepositFair",
-    "version_id": "appgprj_6aeb125a00fc8191b9498af24a733a23~appgver_e7ae94de3a40819196d34c11163e07c5",
+    "version_id": "appgprj_6aeb125a00fc8191b9498af24a733a23~appgver_835a5b0db7b88191b354b0bbe0787ef9",
     "type": "publish",
     "status": "succeeded",
     "url": "https://depositfair.mohamedansaf222.chatgpt.site",
@@ -12,19 +12,19 @@
     "provider_deployment_id": "site---6aeb125a00fc8191b9498af24a733a23",
     "failure_message": null,
     "env_set_revision": 0,
-    "updated_at": "2026-11-05T00:50:27.366182+00:00"
+    "updated_at": "2026-11-05T00:57:13.119076+00:00"
   },
   "version": {
-    "id": "appgprj_6aeb125a00fc8191b9498af24a733a23~appgver_e7ae94de3a40819196d34c11163e07c5",
+    "id": "appgprj_6aeb125a00fc8191b9498af24a733a23~appgver_835a5b0db7b88191b354b0bbe0787ef9",
     "project_id": "appgprj_6aeb125a00fc8191b9498af24a733a23",
-    "version_number": 1,
+    "version_number": 2,
     "source": {
-      "commit_sha": "589595d3784fb4d8b15d984d14ac812a5eefa1e3"
+      "commit_sha": "2308bee97ab9cf816f49ff7f9a54dd9621766219"
     },
     "archive_storage": {
       "archive_format": "tar",
-      "sediment_file_id": "file_00000000e8cc82118fa5ed9e8e150d92",
-      "content_hash": "sha256:6f5ca4c72fa76ad36eb26a5fc95ff770358d9c342fd60ba36a5bcc1362982f82",
+      "sediment_file_id": "file_0000000085a88211b50fd255dcd4d8a2",
+      "content_hash": "sha256:a1c1638649e6deac9e7212a8f63f4e78933020bf18766408b1d916b8d7d6bee8",
       "size_bytes": 624640,
       "file_count": 14
     },
@@ -33,5 +33,12 @@
   },
   "public_browser_verified": true,
   "public_case_read": "depositfair-verified-v12",
-  "public_receipt_hashes_verified": true
+  "public_receipt_hashes_verified": true,
+  "explorer_contract_page_verified": true,
+  "explorer_ai_transaction_verified": "https://explorer-studio.genlayer.com/tx/0x286532a05ca434a601d45d2e58dd3764861ec70fbaa5ccbf30c6096403136d55",
+  "ci": {
+    "commit": "2396b02f2b1ce9af5bb52087b33a02e78c2c0f2d",
+    "run_id": 41944668093,
+    "result": "success"
+  }
 }

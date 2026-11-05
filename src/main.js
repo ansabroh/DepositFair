@@ -104,7 +104,7 @@ function updateTx(state) {
   $("#tx-state").append(title);
   if (state.hash) {
     const a = document.createElement("a");
-    a.href = explorer + "/transactions/" + state.hash;
+    a.href = explorer + "/tx/" + state.hash;
     a.target = "_blank";
     a.rel = "noreferrer";
     a.textContent = state.hash + " ↗";
