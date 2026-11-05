@@ -1,0 +1,12 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "address": "0x8D5A4C8662b2f8A285233Fcee5174FDeD7488Be2",
+  "verified": false,
+  "transactions": [
+    {
+      "method": "deploy",
+      "hash": "0xc3215e2844f97e5c60c271caa027698ad656c137fb116032855322638f581c87"
+    }
+  ]
+}

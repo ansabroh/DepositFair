@@ -1,0 +1,31 @@
+{
+  "attempts": 0,
+  "challenges": [],
+  "claim": {
+    "currency": "GBP",
+    "deductions": [
+      {
+        "amount_minor": 8000,
+        "description": "Repair of broken bedroom shelf",
+        "evidence": "Synthetic repair invoice INV-01: repair existing shelf, materials and labour GBP 80.00. No replacement or improvement. Tenant admits causing the break.",
+        "id": "shelf"
+      }
+    ],
+    "deposit_minor": 100000,
+    "inspection": "Synthetic check-in report, agreed by both parties: bedroom shelf intact. Synthetic check-out report, agreed by both parties: bedroom shelf broken.",
+    "lease": "The tenant must pay reasonable documented repair costs for damage caused by the tenant beyond ordinary wear. Ordinary wear and pre-existing damage are not deductible.",
+    "title": "Synthetic Studio demo — broken shelf"
+  },
+  "claim_hash": "20d4d6437d537fea7176e6a434ffab371098a60244efe76ebdd9d55e161169fc",
+  "head": "0000000000000000000000000000000000000000000000000000000000000000",
+  "id": "studio-demo-01",
+  "landlord": "0xa8acb0a6c059462578823b5eb09321c9119673bf",
+  "outcome": "NOT_ASSESSED",
+  "response": {
+    "agrees_terms": true,
+    "statement": "Synthetic tenant response: I agree these are our lease terms. I broke the shelf during my tenancy and agree with the GBP 80 repair invoice. The shelf was intact at check-in and damaged at check-out."
+  },
+  "stage": "READY",
+  "tenant": "0x4c9473fe48276720864eb479515ab79364586852",
+  "version": "DepositFair/1"
+}

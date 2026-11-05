@@ -1,0 +1,12 @@
+{
+  "claim.json": {
+    "file_sha256": "c34d66b6177c54dda37bae1b0e999009e1f00f19074ccd1d786bde06028184a6",
+    "canonical_sha256": "d33d997e9a448e76f66ecf4e7701cd6b6db97d39bc7c4b379312829e66c9b021",
+    "synthetic": true
+  },
+  "response.json": {
+    "file_sha256": "e5b2dd9f8e7ba79806f13938a604676b9be63a03c561c424c4049b6a692c60c5",
+    "canonical_sha256": "c602e3ca8e5afc8b1b2f1dd505c7ab4b423c70054b5bbadfbb040e40eb2a56a1",
+    "synthetic": true
+  }
+}

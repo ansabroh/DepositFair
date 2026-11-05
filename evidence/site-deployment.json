@@ -1,0 +1,37 @@
+{
+  "deployment": {
+    "id": "appgdep_6aebd2bdcfc481919b5763ebfeb6aef3",
+    "project_id": "appgprj_6aeb125a00fc8191b9498af24a733a23",
+    "title": "DepositFair",
+    "version_id": "appgprj_6aeb125a00fc8191b9498af24a733a23~appgver_e7ae94de3a40819196d34c11163e07c5",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://depositfair.mohamedansaf222.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6aeb125a00fc8191b9498af24a733a23",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-11-05T00:50:27.366182+00:00"
+  },
+  "version": {
+    "id": "appgprj_6aeb125a00fc8191b9498af24a733a23~appgver_e7ae94de3a40819196d34c11163e07c5",
+    "project_id": "appgprj_6aeb125a00fc8191b9498af24a733a23",
+    "version_number": 1,
+    "source": {
+      "commit_sha": "589595d3784fb4d8b15d984d14ac812a5eefa1e3"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_00000000e8cc82118fa5ed9e8e150d92",
+      "content_hash": "sha256:6f5ca4c72fa76ad36eb26a5fc95ff770358d9c342fd60ba36a5bcc1362982f82",
+      "size_bytes": 624640,
+      "file_count": 14
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "public_browser_verified": true,
+  "public_case_read": "depositfair-verified-v12",
+  "public_receipt_hashes_verified": true
+}

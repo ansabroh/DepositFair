@@ -1,0 +1,40 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "address": "0x31d298571AB68011A2e749aFF7C777A43DB86Cf5",
+  "verified": false,
+  "transactions": [
+    {
+      "method": "deploy",
+      "hash": "0xb01d7732189ff09d125ddca23ab05a988e2e6d0633c91f4b03d8941474cb42df"
+    },
+    {
+      "method": "unauthorized_evaluate",
+      "hash": "0x1cf861c93811f7948fea8dbcbe99a469c0fd15b78fe2c4418efd61a10c287e4c"
+    },
+    {
+      "method": "studio_open_case",
+      "hash": "0xcd42d42fc6d7bb4011d7e0a01e6110deb8a108d0e0360fdb93b98c0676f68ca8"
+    },
+    {
+      "method": "studio_respond",
+      "hash": "0x1e5a683030251432b64d1e2c2a36754358f10cb511c77915eb70a43fc10c261a"
+    },
+    {
+      "method": "studio_evaluate",
+      "hash": "0x98fcd439cfffc0393193aa48aca575ed282c75325c6d780bf9c704ea9de7c00b"
+    },
+    {
+      "method": "frontend_open_case",
+      "hash": "0xf9de1d5402893b5dc8a3b19715a0b3ec6919b9f1121aeac63b740ac69fab5b1c"
+    },
+    {
+      "method": "frontend_respond",
+      "hash": "0xf87df8cb83307ff22df3aa33b7462c2c64de4b5a6f44cdf89dc373b585c0eda7"
+    },
+    {
+      "method": "frontend_evaluate",
+      "hash": "0x4cc94eeb79876e75a94d7e5922adea59e37b37bfaed9075e76d165b2cd2c33d0"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "address": "0x2cDd9704206261998586023a5F36bB45199e82F8",
+  "verified": true,
+  "transactions": [
+    {
+      "method": "deploy",
+      "hash": "0xeaafadc5f5daedb92427b827b14b559e0023326bbef3dd3ebd9a036e92ad7823"
+    },
+    {
+      "method": "ai_open_case",
+      "hash": "0x7d4949192bc4490f9db8dea3efb81a4f623bc1ac1fe351edb58f95088938e561"
+    },
+    {
+      "method": "ai_respond",
+      "hash": "0x7cadddc4d0061ff184aa292fd559afd32271a1bfd9797e77fab481bd4bbc2234"
+    },
+    {
+      "method": "ai_evaluate",
+      "hash": "0x286532a05ca434a601d45d2e58dd3764861ec70fbaa5ccbf30c6096403136d55"
+    },
+    {
+      "method": "lifecycle_1_open_case",
+      "hash": "0x19a943889dca9cc97fe861310d95bd3d125522c296b2681271152e32a62d6922",
+      "expectFailure": false
+    },
+    {
+      "method": "lifecycle_2_respond",
+      "hash": "0x33aa3dacf8bd84d9c88badfe5cc72f2476ed4c3ac0a2595b3b395a4eea02762e",
+      "expectFailure": false
+    },
+    {
+      "method": "lifecycle_3_evaluate",
+      "hash": "0xfa12f7634ca6a4746158e358a2dfa0b585065acbff4b862bf8a2217aa719f7a9",
+      "expectFailure": false
+    },
+    {
+      "method": "lifecycle_4_challenge",
+      "hash": "0x567c34dd7325eeb97ca9c702df70ec23f45d832f333b249cfc0808b3ad37fc76",
+      "expectFailure": false
+    },
+    {
+      "method": "lifecycle_5_evaluate",
+      "hash": "0x4db6d81f463cb5ab6305267f616627a3efe7bce5b79ff9c22b2d5d2808cb5ead",
+      "expectFailure": false
+    },
+    {
+      "method": "lifecycle_6_evaluate",
+      "hash": "0x42684148d7885e7c4e567fdad5be62643b705367cd451a4bfb305a41a6e6ea6d",
+      "expectFailure": true
+    },
+    {
+      "method": "duplicate_response_rejected",
+      "hash": "0x0526b611484078e7a79efb4193f262e7cd1a5df07848e5ae7f6671b730009eec",
+      "expectFailure": true
+    }
+  ],
+  "case_id": "depositfair-verified-v12",
+  "challenge_case_id": "depositfair-lifecycle-v12"
+}

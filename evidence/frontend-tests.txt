@@ -1,0 +1,24 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> depositfair@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ accepted is provisional, finalized requires success (2.275116ms)
+✔ terminal consensus failure (0.280607ms)
+✔ monitor follows pending to finalized (1.807602ms)
+✔ failed execution never reported as success (1.194518ms)
+✔ timeout retains transaction for resume (0.479912ms)
+✔ canonical JSON matches Python ensure_ascii (0.514449ms)
+✔ IDs reject injected markup and paths (0.397715ms)
+✔ Studio consensus result is separate from execution result (0.388885ms)
+✔ receipt hashing works without the browser secure-context crypto API (4.752545ms)
+✔ canonical unicode hashing agrees with the standard SHA-256 implementation (2.326869ms)
+✔ currency entry converts exact decimal text to integer minor units (1.874736ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 767.225665

@@ -1,0 +1,72 @@
+{
+  "assessment": {
+    "findings": [
+      {
+        "amount_minor": 12000,
+        "attributable": "NO",
+        "beyond_wear": "NO",
+        "cost_supported": "YES",
+        "evidence_quote": "Synthetic quotation Q-02: repaint hallway GBP 120.00. Scuffs were present at check-in and did not worsen. No new damage.",
+        "id": "paint",
+        "lease_allows": "NO",
+        "lease_quote": "Ordinary wear and pre-existing damage are not deductible.",
+        "reason": "The lease expressly excludes ordinary wear and pre-existing damage. The inspection and deduction evidence both say the hallway paint was already scuffed at check-in and similar at check-out, with no worsening or new damage. That supports no deductible damage and no tenant-caused deterioration. The quote does state a GBP 120 repainting amount, so the claimed cost itself is stated, but the underlying basis for deduction is not supported.",
+        "state": "UNSUPPORTED",
+        "tenant_quote": "The hallway scuffs were already present at check-in, did not worsen, and are ordinary wear. I dispute the GBP 120 repainting deduction."
+      },
+      {
+        "amount_minor": 8000,
+        "attributable": "YES",
+        "beyond_wear": "YES",
+        "cost_supported": "YES",
+        "evidence_quote": "Synthetic repair invoice INV-01: repair existing shelf, materials and labour GBP 80.00. No replacement or improvement. Tenant admits causing the break.",
+        "id": "shelf",
+        "lease_allows": "YES",
+        "lease_quote": "The tenant must pay reasonable documented repair costs for damage caused by the tenant beyond ordinary wear.",
+        "reason": "The lease expressly allows documented repair costs for tenant-caused damage beyond ordinary wear. Check-in says the shelf was intact and check-out says it was broken, supporting damage during the tenancy. The tenant expressly admits causing the break. The invoice supports a repair, not replacement or improvement, and states materials and labour of GBP 80.00.",
+        "state": "SUPPORTED",
+        "tenant_quote": "I broke the shelf during my tenancy and agree with the GBP 80 repair invoice."
+      }
+    ],
+    "outcome": "PARTIALLY_SUPPORTED",
+    "reason": "Each deduction was assessed only against the lease and submitted evidence. The shelf repair is supported by the lease, inspection change from intact to broken, tenant admission, and a documented repair invoice without improvement. The hallway repainting is not supported because the lease excludes ordinary wear and pre-existing damage, and the records say the scuffs already existed and did not worsen.",
+    "supported_minor": 8000,
+    "unresolved_minor": 0,
+    "unsupported_minor": 12000
+  },
+  "attempt": 1,
+  "case_id": "depositfair-verified-v12",
+  "claim_hash": "d33d997e9a448e76f66ecf4e7701cd6b6db97d39bc7c4b379312829e66c9b021",
+  "decision_hash": "e4de3510b66f81819653982dca32aab1b3a21a02dc4e3d3149efcc18774ff064",
+  "evidence": {
+    "challenges": [],
+    "claim": {
+      "currency": "GBP",
+      "deductions": [
+        {
+          "amount_minor": 8000,
+          "description": "Repair of broken bedroom shelf",
+          "evidence": "Synthetic repair invoice INV-01: repair existing shelf, materials and labour GBP 80.00. No replacement or improvement. Tenant admits causing the break.",
+          "id": "shelf"
+        },
+        {
+          "amount_minor": 12000,
+          "description": "Repainting pre-existing hallway scuffs",
+          "evidence": "Synthetic quotation Q-02: repaint hallway GBP 120.00. Scuffs were present at check-in and did not worsen. No new damage.",
+          "id": "paint"
+        }
+      ],
+      "deposit_minor": 100000,
+      "inspection": "Synthetic check-in report, agreed by both parties: bedroom shelf intact; hallway paint already scuffed. Synthetic check-out report, agreed by both parties: bedroom shelf broken; hallway paint has similar scuffs.",
+      "lease": "The tenant must pay reasonable documented repair costs for damage caused by the tenant beyond ordinary wear. Ordinary wear and pre-existing damage are not deductible. Replacement must not improve the original condition.",
+      "title": "Synthetic demo · broken shelf and worn paint"
+    },
+    "response": {
+      "agrees_terms": true,
+      "statement": "Synthetic tenant response: I agree these are our lease terms. I broke the shelf during my tenancy and agree with the GBP 80 repair invoice. The hallway scuffs were already present at check-in, did not worsen, and are ordinary wear. I dispute the GBP 120 repainting deduction."
+    }
+  },
+  "evidence_hash": "45a3f8376187921db04260a77bce179914e0511b520579dac2513913b1dce170",
+  "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "version": "DepositFair/1.2"
+}

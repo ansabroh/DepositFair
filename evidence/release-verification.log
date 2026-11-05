@@ -1,0 +1,14 @@
+deploy FINALIZED SUCCESS
+ai_open_case FINALIZED SUCCESS
+ai_respond FINALIZED SUCCESS
+ai_evaluate FINALIZED SUCCESS
+lifecycle_1_open_case FINALIZED SUCCESS
+lifecycle_2_respond FINALIZED SUCCESS
+lifecycle_3_evaluate FINALIZED SUCCESS
+lifecycle_4_challenge FINALIZED SUCCESS
+lifecycle_5_evaluate FINALIZED SUCCESS
+lifecycle_6_evaluate FINALIZED ERROR
+duplicate_response_rejected FINALIZED ERROR
+depositfair-verified-v12 verified 1 receipt(s)
+depositfair-lifecycle-v12 verified 2 receipt(s)
+RELEASE VERIFIED

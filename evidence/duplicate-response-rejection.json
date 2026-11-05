@@ -1,0 +1,11 @@
+{
+  "method": "respond",
+  "hash": "0x0526b611484078e7a79efb4193f262e7cd1a5df07848e5ae7f6671b730009eec",
+  "expectFailure": false,
+  "state": {
+    "phase": "failed",
+    "status": "FINALIZED",
+    "result": "ERROR"
+  },
+  "note": "Accidental duplicate during verification; original frozen response remains unchanged."
+}
