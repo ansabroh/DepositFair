@@ -10,6 +10,7 @@ import {
   resume,
 } from "./chain.js";
 import { canonical, validId, hashRecord, moneyToMinor } from "./lifecycle.js";
+import { buildReport, reportHTML } from "./report.js";
 let account = "",
   current = null,
   busy = false,
@@ -180,7 +181,30 @@ async function renderDetail(r) {
   const d = $("#detail");
   d.hidden = false;
   const c = r.claim;
-  d.innerHTML = `<div class="panel-title"><div><div class="eyebrow">CASE / ${esc(r.id)}</div><h2>${esc(c.title)}</h2></div><span class="badge">${esc(r.outcome.replaceAll("_", " "))}</span></div><div class="detail-meta"><span>Deposit <b>${money(c.deposit_minor, c.currency)}</b></span><span>Stage <b>${esc(r.stage)}</b></span><span>Assessments <b>${r.attempts} / 2</b></span></div><details><summary>Frozen evidence & participant addresses</summary><pre>${esc(JSON.stringify(r, null, 2))}</pre></details><div id="party-actions"></div><div id="receipts"></div>`;
+  d.innerHTML = `<div class="panel-title"><div><div class="eyebrow">CASE / ${esc(r.id)}</div><h2>${esc(c.title)}</h2></div><span class="badge">${esc(r.outcome.replaceAll("_", " "))}</span></div><div class="detail-meta"><span>Deposit <b>${money(c.deposit_minor, c.currency)}</b></span><span>Stage <b>${esc(r.stage)}</b></span><span>Assessments <b>${r.attempts} / 2</b></span></div><details><summary>Frozen evidence & participant addresses</summary><pre>${esc(JSON.stringify(r, null, 2))}</pre></details><div id="party-actions"></div><section id="case-report" class="receipt"><div class="eyebrow">NEW / CASE REPORT</div><h3>See the full assessment history.</h3><p>Verify every receipt, compare challenge results and export a printable evidence report. No account required.</p><button id="build-report" class="outline" ${r.attempts ? "" : "disabled"}>Verify & build case report</button><div id="report-result" role="status"></div></section><div id="receipts"></div>`;
+  d.querySelector("#build-report").onclick = async (event) => {
+    const button = event.currentTarget;
+    const result = d.querySelector("#report-result");
+    button.disabled = true;
+    result.textContent = "Reading finalized case and verifying full history…";
+    try {
+      const record = await readJSON("get_case", [r.id]);
+      const receipts = [];
+      for (let i = 1; i <= record.attempts; i++) receipts.push(await readJSON("get_receipt", [r.id, i]));
+      const report = buildReport(record, receipts, config);
+      result.innerHTML = `<p>✓ Full receipt chain verified · ${receipts.length} assessment(s).</p><h4>Assessment-based refund range: ${money(report.refund.minimum_minor, c.currency)} – ${money(report.refund.maximum_minor, c.currency)}</h4><p class="muted">Deposit minus supported deductions; unresolved amounts remain reserved at the lower end. Nonbinding, not an agreed settlement.</p><div class="report-table"><table><thead><tr><th>Deduction</th><th>Initial</th><th>Latest</th></tr></thead><tbody>${report.changes.map(item => `<tr><td>${esc(item.id)}</td><td>${esc(item.before)}</td><td>${esc(item.after)}</td></tr>`).join("")}</tbody></table></div><p>${receipts.length === 2 ? "Supported deduction change: " + money(report.supported_change_minor, c.currency) : "No second assessment yet."}</p><button class="outline small report-json">Download full report JSON ↓</button> <button class="outline small report-html">Download printable report ↓</button><p class="muted">Open the downloaded HTML and use Print → Save as PDF. Includes public evidence and complete historical snapshots.</p>`;
+      const download = (content, extension, type) => {
+        const url = URL.createObjectURL(new Blob([content], { type }));
+        const link = document.createElement("a");
+        link.href = url; link.download = r.id + "-case-report." + extension; link.click();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+      };
+      result.querySelector(".report-json").onclick = () => download(JSON.stringify(report, null, 2), "json", "application/json");
+      result.querySelector(".report-html").onclick = () => download(reportHTML(report), "html", "text/html");
+    } catch (error) {
+      result.textContent = "Report unavailable: " + error.message + " No verified report was generated. Refresh the case and retry.";
+    } finally { button.disabled = false; }
+  };
   const a = $("#party-actions");
   const party = [r.landlord, r.tenant].includes(account.toLowerCase());
   if (r.stage === "AWAITING_TENANT") {

@@ -841,3 +841,8 @@ dialog p {
 .deduction-row .two label {
   margin-top: 8px;
 }
+
+.report-table { overflow-x: auto; margin: 16px 0; }
+.report-table table { border-collapse: collapse; width: 100%; font-size: .85rem; }
+.report-table th, .report-table td { text-align: left; padding: 12px; border-bottom: 1px solid #d6e1db; }
+#report-result { margin-top: 18px; }

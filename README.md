@@ -16,6 +16,10 @@ Rental deposit disputes often come down to incomplete evidence, different readin
 - One shared evidence challenge permits a second assessment. The original assessment is preserved, including its exact evidence snapshot.
 - The frontend reads finalized contract state, displays per-item checks and grounded quotations, verifies SHA-256 receipt chains, exports JSON receipts and tracks pending/accepted/finalized/failed transactions.
 
+## Milestone v1: verified case reports
+
+Open any assessed case and choose **Verify & build case report**. Verify the full receipt chain, compare initial and challenged item outcomes, review a nonbinding refund range and download complete JSON or a printable HTML report. No account required. Missing or inconsistent receipt histories block export. The contract address is unchanged. See [milestone delta and reproduction](docs/MILESTONE-V1.md).
+
 ## Try it
 
 1. Open the live app and select **Connect test account** to create a disposable Studionet account. Its address is displayed in the connection notice.
